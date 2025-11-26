@@ -1,20 +1,22 @@
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/images/eu.jpg" alt="Cha Matheus" width="100" style="border-radius: 50%;">
-  <br>
-  Cha Matheus - Portfolio
-  <br>
-</h1>
+# 💼 Cha Matheus – Portfolio
 
-<h4 align="center">🚀 Computer & AI Engineer, crafting intelligent solutions through creative code</h4>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ChaMatteCoder/portfolio/main/images/eu.jpg" 
+       alt="Cha Matheus" 
+       width="120" 
+       style="border-radius: 50%;">
+</p>
+
+
+<h3 align="center">🚀 Computer & AI Engineer criando soluções inteligentes com código criativo</h3>
 
 <p align="center">
   <a href="#-sobre">Sobre</a> •
   <a href="#-características">Características</a> •
   <a href="#-tecnologias">Tecnologias</a> •
   <a href="#-instalação">Instalação</a> •
-  <a href="#-deploy">Deploy</a> •
-  <a href="#-estrutura">Estrutura</a> •
+  <a href="#-estrutura-do-projeto">Estrutura</a> •
+  <a href="#-personalização">Personalização</a> •
   <a href="#-contato">Contato</a>
 </p>
 
@@ -23,71 +25,192 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Responsive-Design-2E8B57?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Multi-Language-FF6B35?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Multilanguage-FF6B35?style=for-the-badge" />
 </p>
 
-![Portfolio Preview](https://via.placeholder.com/1920x1080/2E8B57/FFFFFF?text=Cha+Matheus+Portfolio+-+Modern+%26+Responsive)
+---
+
+![Portfolio Preview](https://raw.githubusercontent.com/ChaMatteCoder/portfolio/main/images/preview.png)
+
+---
 
 ## 📖 Sobre
 
-Portfolio moderno e responsivo desenvolvido para mostrar minhas habilidades como **Engenheiro de IA** e **Engenheiro de Computação**. O design é inspirado em chá, refletindo minha personalidade calma e centrada, com uma paleta de cores cuidadosamente escolhida e animações suaves, cada cor trás um significado que reflete na minha personalidade, e no meu
-trabalho.
+Portfolio moderno, responsivo e cuidadosamente projetado para apresentar minhas habilidades como **Engenheiro de IA** e **Engenheiro de Computação**.
+A estética é inspirada em uma paleta de cores baseada em chás — refletindo uma identidade calma, criativa e focada.
 
-> 🌐 **Live Demo**: [https://cha-matheus.vercel.app](https://cha-matheus.vercel.app)
+> 🌐 **Live Demo:**
+> [https://cha-matheus.vercel.app](https://cha-matheus.vercel.app)
+
+---
 
 ## ✨ Características
 
-### 🎨 Design & UX
-- ✅ **Design Responsivo** - Perfeito em todos os dispositivos
-- ✅ **Modo Claro/Escuro** - Toggle suave entre temas
-- ✅ **5 Temas de Cores** - Inspirados em diferentes tipos de chá
-- ✅ **Animações Suaves** - Transições CSS modernas
-- ✅ **UI/UX Intuitiva** - Navegação fluida e experiência imersiva
+### 🎨 **Design & UX**
 
-### 🌍 Internacionalização
-- ✅ **3 Idiomas** - Português, Inglês e Francês
-- ✅ **Sistema de Tradução Dinâmico** - Troca instantânea de idiomas
-- ✅ **Typed.js Multilíngue** - Animação de digitação adaptada
+* ✔️ Layout 100% responsivo
+* ✔️ Modo claro e escuro
+* ✔️ **5 temas de cores** inspirados em diferentes tipos de chá
+* ✔️ Animações suaves e transições modernas
+* ✔️ Navegação fluida e intuitiva
 
-### ⚡ Funcionalidades
-- ✅ **Seção Home** - Apresentação com foto animada
-- ✅ **Sobre Mim** - Timeline interativa de educação/experiência
-- ✅ **Serviços** - 6 áreas de especialização
-- ✅ **Portfolio** - Seção em desenvolvimento com mensagem divertida
-- ✅ **Contato** - Formulário funcional com validação
-- ✅ **Download CV** - Currículo disponível para download
+### 🌍 **Internacionalização**
 
-### 🔧 Técnicas
-- ✅ **Performance Otimizada** - Carregamento rápido
-- ✅ **SEO Friendly** - Meta tags e estrutura semântica
-- ✅ **Acessibilidade** - Navegação por teclado e screen readers
-- ✅ **Código Limpo** - Organização e comentários
+* ✔️ Português, Inglês e Francês
+* ✔️ Sistema dinâmico de tradução
+* ✔️ Typed.js multilíngue
+
+### ⚡ **Funcionalidades**
+
+* ✔️ Seção Home com animação
+* ✔️ Timeline interativa de experiências
+* ✔️ Seção de serviços (6 especializações)
+* ✔️ Portfolio (em expansão)
+* ✔️ Formulário de contato com validação
+* ✔️ Download de currículo em PDF
+
+### 🔧 **Técnicas**
+
+* ✔️ Carregamento otimizado
+* ✔️ SEO Friendly
+* ✔️ Acessibilidade melhorada
+* ✔️ Código limpo e organizado
+
+---
 
 ## 🛠 Tecnologias
 
-**Frontend:**
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+### **Frontend**
 
-**Bibliotecas:**
-- ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-square&logo=font-awesome&logoColor=white)
-- ![Typed.js](https://img.shields.io/badge/Typed.js-000000?style=flat-square)
-- ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat-square&logo=google-fonts&logoColor=white)
+| Tecnologia | Badge                                                                                                             |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- |
+| HTML5      | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)                |
+| CSS3       | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)                   |
+| JavaScript | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black) |
 
-**Ferramentas:**
-- ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+### **Bibliotecas**
+
+* Font Awesome
+* Typed.js
+* Google Fonts
+
+### **Ferramentas**
+
+* Git
+* Vercel
+
+---
 
 ## 🚀 Instalação
 
-### Pré-requisitos
-- Navegador moderno (Chrome, Firefox, Safari, Edge)
-- Git instalado (para desenvolvimento)
+### **Pré-requisitos**
 
-### Passo a Passo
+* Navegador moderno
+* Git (caso deseje contribuir ou editar localmente)
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/ChaMatheus/portfolio.git
-   cd portfolio
+### **Passo a passo**
+
+```bash
+git clone https://github.com/ChaMatheus/portfolio.git
+cd portfolio
+```
+
+Para executar:
+
+* Abra o arquivo **index.html**
+  ou use um servidor local:
+
+```bash
+# Python
+python -m http.server 8000
+
+# Node.js
+npx http-server
+
+# PHP
+php -S localhost:8000
+```
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+portfolio/
+├── index.html
+├── css/
+│   ├── style.css
+│   ├── skins/
+│   │   ├── color-1.css
+│   │   ├── color-2.css
+│   │   ├── color-3.css
+│   │   ├── color-4.css
+│   │   └── color-5.css
+│   └── style-switcher.css
+├── js/
+│   ├── script.js
+│   ├── style-switcher.js
+│   ├── translations.js
+│   ├── portfolio-carousel.js
+│   └── contact-form.js
+├── files/
+│   └── cv-matheus-fernandes.pdf
+├── images/
+│   ├── eu.jpg
+│   └── events/
+│       └── devfest.webp
+└── README.md
+```
+
+---
+
+## 🎯 Personalização
+
+### **🎨 Editar temas**
+
+Modifique os arquivos em:
+`css/skins/`
+
+### **🌍 Adicionar novos idiomas**
+
+Edite:
+`js/translations.js`
+
+### **✏️ Alterar conteúdo**
+
+* Textos → `translations.js`
+* Imagens → pasta `images/`
+* Currículo → substitua em `files/`
+
+---
+
+## 📞 Contato
+
+**Matheus Fernandes – Engenheiro de IA & Computação**
+
+📧 Email: **[chamattheus@gmail.com](mailto:chamattheus@gmail.com)**
+💼 LinkedIn: **linkedin.com/in/chamatheus**
+🐙 GitHub: **github.com/ChaMatheus**
+🌐 Portfolio: **[https://portfolio-chamatheus.vercel.app](https://portfolio-chamatheus.vercel.app)**
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
+
+---
+
+<div align="center">
+
+### 🚀 Desenvolvido com ❤️ e ☕ por **Cha Matheus**
+
+![Followers](https://img.shields.io/github/followers/ChaMatheus?style=social)
+![Website](https://img.shields.io/website?url=portfolio-chamatheus.vercel.app)
+
+⭐ *Se este projeto te ajudou, considere deixar uma estrela!*
+
+</div>
+
+---
+
