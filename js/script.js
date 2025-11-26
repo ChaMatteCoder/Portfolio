@@ -130,14 +130,25 @@ function asideSectionTogglerBtn() {
     }
 }
 
-/*==================== Color Cards Functionality =================*/
-function initializeColorCards() {
+/* ===== COLOR CARDS EXPANSION FUNCTIONALITY ===== */
+/* ===== COLOR CARDS SMOOTH FUNCTIONALITY ===== */
+function initializeColorCardsSmooth() {
     const colorCards = document.querySelectorAll('.color-card');
     
+    // Define índices para animação escalonada
+    colorCards.forEach((card, index) => {
+        card.style.setProperty('--card-index', index);
+    });
+    
     colorCards.forEach(card => {
-        card.addEventListener('click', function() {
+        card.addEventListener('click', function(e) {
+            e.stopPropagation();
+            
             // Remove active class from all cards
-            colorCards.forEach(c => c.classList.remove('active'));
+            colorCards.forEach(c => {
+                c.classList.remove('active');
+                c.style.height = '360px';
+            });
             
             // Add active class to clicked card
             this.classList.add('active');
@@ -147,71 +158,41 @@ function initializeColorCards() {
             
             // Change the theme
             setActiveStyle(colorTheme);
-        });
-    });
-    
-    // Set initial active card based on current theme
-    setInitialActiveCard();
-}
-
-function setInitialActiveCard() {
-    // Find the currently active theme
-    const alternateStyles = document.querySelectorAll('.alternate-style');
-    let activeTheme = 'color-1'; // default
-    
-    alternateStyles.forEach(style => {
-        if (!style.disabled) {
-            activeTheme = style.getAttribute('title');
-        }
-    });
-    
-    // Activate corresponding card
-    const activeCard = document.querySelector(`.color-card[data-color="${activeTheme}"]`);
-    if (activeCard) {
-        activeCard.classList.add('active');
-    }
-}
-
-// Sync color cards with style switcher
-function syncColorCardsWithSwitcher() {
-    const styleSwitcherColors = document.querySelectorAll('.style-switcher .colors span');
-    
-    styleSwitcherColors.forEach(span => {
-        span.addEventListener('click', function() {
-            const colorTheme = this.classList[0]; // color-1, color-2, etc.
             
-            // Update color cards
-            const colorCards = document.querySelectorAll('.color-card');
-            colorCards.forEach(card => card.classList.remove('active'));
-            
-            const correspondingCard = document.querySelector(`.color-card[data-color="${colorTheme}"]`);
-            if (correspondingCard) {
-                correspondingCard.classList.add('active');
+            // Adjust height for active card to fit content
+            if (this.classList.contains('active')) {
+                this.style.height = 'auto';
             }
         });
+    });
+    
+    // Close expanded card when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.color-card')) {
+            const activeCard = document.querySelector('.color-card.active');
+            if (activeCard) {
+                activeCard.classList.remove('active');
+                activeCard.style.height = '360px';
+            }
+        }
     });
 }
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    initializeColorCards();
-    syncColorCardsWithSwitcher();
-});
-
-// Also initialize when theme is changed from style switcher
-// Add this to your existing setActiveStyle function in style-switcher.js:
-function setActiveStyle(colorName) {
-    // ... seu código existente ...
+    initializeColorCardsSmooth();
     
-    // Update color cards
-    const colorCards = document.querySelectorAll('.color-card');
-    colorCards.forEach(card => card.classList.remove('active'));
-    
-    const activeCard = document.querySelector(`.color-card[data-color="${colorName}"]`);
-    if (activeCard) {
-        activeCard.classList.add('active');
+    // Set initial active card based on current theme
+    const currentStyle = document.querySelector('.alternate-style:not([disabled])');
+    if (currentStyle) {
+        const currentColor = currentStyle.getAttribute('title');
+        const activeCard = document.querySelector(`.color-card[data-color="${currentColor}"]`);
+        if (activeCard) {
+            activeCard.classList.add('active');
+            activeCard.style.height = 'auto';
+        }
     }
-}
+});
 
 /*==================== Tech Carousel =================*/
 function initializeTechCarousel() {

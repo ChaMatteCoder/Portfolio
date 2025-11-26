@@ -13,7 +13,7 @@ const translations = {
         // Home Section
         'home-hello': 'Hello, my name is',
         'home-profession': "I'm a",
-        'home-description': "AI Engineer and Computer Scientist crafting intelligent, automated solutions through creative code.",
+        'home-description': "Computer Engineering student turning complex ideas into elegant technological solutions, blending logic, creativity, and innovation in every line of code.",
         'home-download-cv': 'Download CV',
         
         // About Section
@@ -106,7 +106,7 @@ const translations = {
         
         // Color Meanings
         'colors-title': 'What My Colors Represent',
-        'colors-intro': 'Each color in my palette tells a story about my approach to technology and creativity:',
+        'colors-intro': 'The color palette of this portfolio was carefully chosen to reflect my calm and centered personality, inspired by my love for tea and the tranquility it brings. Each color tells a story and represents a different aspect of my approach to work and life.',
         
         // Tea Colors
         'color-1-title': 'Matcha Green',
@@ -160,7 +160,7 @@ const translations = {
         // Home Section
         'home-hello': 'Olá, me chamo',
         'home-profession': 'Eu sou',
-        'home-description': 'Engenheiro de IA e Cientista da Computação criando soluções inteligentes e automatizadas através de código criativo.',
+        'home-description': 'Engenheiro de Computação transformando ideias complexas em soluções tecnológicas elegantes, unindo lógica, criatividade e inovação em cada linha de código.',
         'home-download-cv': 'Baixar CV',
         
         // About Section
@@ -253,7 +253,7 @@ const translations = {
         
         // Color Meanings
         'colors-title': 'O Que Minhas Cores Representam',
-        'colors-intro': 'Cada cor na minha paleta conta uma história sobre minha abordagem à tecnologia e criatividade:',
+        'colors-intro': 'A paleta de cores deste portfólio foi cuidadosamente escolhida para refletir minha personalidade calma e centrada, inspirada pelo meu amor pelo chá e pela tranquilidade que ele proporciona. Cada cor conta uma história e representa um aspecto diferente da minha abordagem ao trabalho e à vida.',
         
         // Tea Colors
         'color-1-title': 'Verde Matcha',
@@ -272,9 +272,9 @@ const translations = {
         'color-4-subtitle': 'Crescimento & Evolução',
         'color-4-desc': 'Como folhas de chá verde se desdobrando em água quente, esta cor incorpora crescimento contínuo, aprendizado e evolução tanto em habilidades quanto em perspectiva.',
         
-        'color-5-title': 'Terracota de Chá de Ervas',
+        'color-5-title': 'Chá de Ervas (TerraCota)',
         'color-5-subtitle': 'Aconchegante & Acolhedor',
-        'color-5-desc': 'Esta terracota quente reflete a natureza reconfortante do chá de ervas - criando um espaço convidativo onde ideias podem ser compartilhadas e colaborações podem florescer.',
+        'color-5-desc': 'Uma terracota quente que transmite aconchego, criando um ambiente convidativo para troca de ideias e colaboração.',
         
         // Hire Me button
         'hire-me': 'Contrate-me',
@@ -307,7 +307,7 @@ const translations = {
         // Home Section
         'home-hello': 'Bonjour, je m\'appelle',
         'home-profession': 'Je suis',
-        'home-description': 'Ingénieur en IA et informaticien créant des solutions intelligentes et automatisées grâce à un code créatif.',
+        'home-description': 'Étudiant en Génie Informatique transformant des idées complexes en solutions technologiques élégantes, en combinant logique, créativité et innovation dans chaque ligne de code.',
         'home-download-cv': 'Télécharger CV',
         
         // About Section
